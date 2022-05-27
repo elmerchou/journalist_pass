@@ -2,7 +2,7 @@
 
 ## About
 
-A citizen journalist pass generator for all those who want to fight for their press freedom.  Visit site [here](https://elmerchou.github.io/journalist_pass/).
+A citizen journalist pass generator for all those who want to fight for their press freedom.  In order for the function to work smoothly, please use your computer to view this site. Visit site [here](https://elmerchou.github.io/journalist_pass/).
 
 ## Screenshots
 
