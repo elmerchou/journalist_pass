@@ -14,4 +14,4 @@ A citizen journalist pass generator for all those who want to fight for their pr
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+- [MIT](https://choosealicense.com/licenses/mit/)
