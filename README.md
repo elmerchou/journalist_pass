@@ -6,8 +6,8 @@ A citizen journalist pass generator for all those who want to fight for their pr
 
 ## Screenshots
 
-![](https://i.imgur.com/j5s5pDu.png width="50%" height="50%")
-![](https://i.imgur.com/COuRFKe.png width="50%" height="50%")
+![](https://i.imgur.com/j5s5pDu.png )
+![](https://i.imgur.com/COuRFKe.png )
 
 
 ## Libraries
