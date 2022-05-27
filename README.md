@@ -12,7 +12,7 @@ A citizen journalist pass generator for all those who want to fight for their pr
 
 ## Libraries
 
-- [Cropper.js](https://fengyuanchen.github.io/cropperjs/)
+- [react-cropper](https://www.npmjs.com/package/react-cropper)
 
 ## Author
 
