@@ -1,23 +1,17 @@
 import React, { useState } from "react";
 import Cropper from "react-cropper";
 import "cropperjs/dist/cropper.css";
-import Profile from "./img/profile-image-placeholder.jpg";
+import profile from "../img/profile-image-placeholder.jpg";
 
 function print() {
   window.print();
 }
 
-const defaultSrc = Profile;
+let cropper;
 
-function Deal({ setInput, setName, input, getCropData, setCropper }) {
-  const [image, setImage] = useState(defaultSrc);
-
-  const inputHandler = (e) => {
-    setInput(e.target.value);
-  };
-  const nameHandler = () => {
-    setName(input);
-  };
+function Deal({ setInput, setName, input, onCrop }) {
+  const [imageSrc, setImageSrc] = useState(profile);
+  const [isCropperReady, setIsCropperReady] = useState(false);
 
   const onChange = (e) => {
     e.preventDefault();
@@ -29,7 +23,7 @@ function Deal({ setInput, setName, input, getCropData, setCropper }) {
     }
     const reader = new FileReader();
     reader.onload = () => {
-      setImage(reader.result);
+      setImageSrc(reader.result);
     };
     reader.readAsDataURL(files[0]);
   };
@@ -51,33 +45,41 @@ function Deal({ setInput, setName, input, getCropData, setCropper }) {
       <div>
         <input
           type="text"
-          maxlength="20"
+          maxLength="20"
           placeholder="在此輸入您的姓名"
-          onChange={inputHandler}
+          onChange={(e) => setInput(e.target.value)}
         />
-        <button onClick={nameHandler}>填入姓名</button>
+        <button onClick={() => setName(input)}>填入姓名</button>
       </div>
       <Cropper
         className="cropper"
         // preview={require("./img/profile-image-placeholder.png")}
-        src={image}
+        src={imageSrc}
         style={{ height: 300, width: "90%" }}
         onInitialized={(instance) => {
-          setCropper(instance);
+          cropper = instance;
+          setIsCropperReady(true);
         }}
         background={false}
         aspectRatio={1 / 1}
       />
       <div className="buttonBar">
-        <label for="file1">檔案上傳</label>
+        <label htmlFor="file1">檔案上傳</label>
         <input
           style={{ display: "none" }}
           id="file1"
           type="file"
           onChange={onChange}
           accept="image/*"
+          disabled={!isCropperReady}
         />
-        <label onClick={getCropData}>嵌入圖片</label>
+        <label
+          onClick={() => {
+            if (isCropperReady) onCrop(cropper.getCroppedCanvas().toDataURL());
+          }}
+        >
+          嵌入圖片
+        </label>
         <label className="print" onClick={print}>
           列印
         </label>
