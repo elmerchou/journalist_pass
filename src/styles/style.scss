@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.merge {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+
+@import "_footer";
+@import "_card";
+@import "_deal";

@@ -1,0 +1,48 @@
+.deal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  margin-left: 0;
+  max-width: 600px;
+
+  .title {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px 0;
+  }
+  p {
+    margin: 5px 0;
+  }
+
+  input {
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1.5px #042940;
+  }
+  button,
+  label {
+    font-size: 20px;
+    background-color: #0074d9;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  label {
+    padding: 12.5px 20px;
+  }
+  .cropper {
+    margin: 10px 0;
+  }
+
+  .print {
+    // font-size: 25px;
+    padding: 10px 25px;
+    background-color: #ff4136;
+  }
+}
