@@ -68,7 +68,7 @@ function Deal({ setInput, setName, input, getCropData, setCropper }) {
         background={false}
         aspectRatio={1 / 1}
       />
-      <div>
+      <div className="buttonBar">
         <label for="file1">檔案上傳</label>
         <input
           style={{ display: "none" }}
@@ -77,10 +77,10 @@ function Deal({ setInput, setName, input, getCropData, setCropper }) {
           onChange={onChange}
           accept="image/*"
         />
-        <button onClick={getCropData}>嵌入圖片</button>
-        <button className="print" onClick={print}>
+        <label onClick={getCropData}>嵌入圖片</label>
+        <label className="print" onClick={print}>
           列印
-        </button>
+        </label>
       </div>
     </div>
   );

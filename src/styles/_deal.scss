@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
+  margin: 3% 0;
   margin-left: 0;
   max-width: 600px;
 
@@ -24,6 +24,7 @@
   }
   button,
   label {
+    font-weight: lighter;
     font-size: 20px;
     background-color: #0074d9;
     color: white;
@@ -33,13 +34,15 @@
     border: none;
     border-radius: 5px;
   }
-  label {
-    padding: 12.5px 20px;
-  }
+  // label {
+  //   padding: 12.5px 20px;
+  // }
   .cropper {
     margin: 10px 0;
   }
-
+  .buttonBar {
+    margin: 10px 0;
+  }
   .print {
     // font-size: 25px;
     padding: 10px 25px;
