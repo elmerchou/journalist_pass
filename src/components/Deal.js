@@ -75,7 +75,10 @@ function Deal({ setInput, setName, input, onCrop }) {
         />
         <label
           onClick={() => {
-            if (isCropperReady) onCrop(cropper.getCroppedCanvas().toDataURL());
+            if (isCropperReady) {
+              onCrop(cropper.getCroppedCanvas().toDataURL());
+              window.scrollTo(0, 0);
+            }
           }}
         >
           嵌入圖片

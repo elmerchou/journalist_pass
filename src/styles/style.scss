@@ -34,6 +34,13 @@ body {
   }
 }
 
+@media screen and (max-width: 1225px) {
+  .merge {
+    flex-direction: column;
+    min-width: 675px;
+  }
+}
+
 @import "_footer";
 @import "_card";
 @import "_deal";
