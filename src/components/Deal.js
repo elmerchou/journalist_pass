@@ -49,7 +49,7 @@ function Deal({ setInput, setName, input, onCrop }) {
           placeholder="在此輸入您的姓名"
           onChange={(e) => setInput(e.target.value)}
         />
-        <button onClick={() => setName(input)}>填入姓名</button>
+        <label onClick={() => setName(input)}>填入姓名</label>
       </div>
       <Cropper
         className="cropper"

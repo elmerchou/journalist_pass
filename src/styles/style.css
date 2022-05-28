@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Sans TC", sans-serif !important;
 }
 
 .App {
@@ -175,14 +175,16 @@ body {
 }
 
 .deal input {
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px;
   margin: 10px;
   border: solid 1.5px #042940;
+  font-family: "Noto Sans TC", sans-serif;
+  max-width: 400px;
 }
 
-.deal button,
 .deal label {
+  font-family: "Noto Sans TC", sans-serif;
   font-weight: lighter;
   font-size: 20px;
   background-color: #0074d9;
