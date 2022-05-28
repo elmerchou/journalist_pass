@@ -19,7 +19,7 @@ Visit site [here](https://elmerchou.github.io/journalist_pass/).
 ## Author
 
 - [@ElmerChou](https://github.com/elmerchou)
-- [FOBshippingpoint](https://github.com/FOBshippingpoint)
+- [@FOBshippingpoint](https://github.com/FOBshippingpoint)
 
 ## License
 
