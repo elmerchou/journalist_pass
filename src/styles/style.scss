@@ -1,26 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400&family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   flex-direction: row;
 }
-html {
-  height: 100%;
-}
 
 body {
   font-family: "Noto Sans TC", sans-serif;
-  height: 100%;
+}
+
+.App {
+  display: flex; //啟用flex
+  flex-direction: column; //設定由上到下排列
+  min-height: 100vh; // 至少佔據可視範圍的整個高度
 }
 
 .merge {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-  min-height: 100%;
-  flex-grow: 1;
+  align-items: center;
+  flex: 1;
 }
 
 @media print {
