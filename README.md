@@ -1,5 +1,5 @@
 # Citizen Journalist Pass Generator / 公民記者證產生器
-![GitHub](https://img.shields.io/github/license/elmerchou/journalist_pass?style=for-the-badge) ![React](https://img.shields.io/badge/React-61DAFB?logo=React&logoColor=blue&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/elmerchou/journalist_pass?style=for-the-badge) ![React](https://img.shields.io/badge/Made%20with-React-61DAFB?logo=React&logoColor=61DAFB&style=for-the-badge)
 
 ## About
 
