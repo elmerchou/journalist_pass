@@ -13,6 +13,18 @@ function Deal({ setInput, setName, input, onCrop }) {
   const [imageSrc, setImageSrc] = useState(profile);
   const [isCropperReady, setIsCropperReady] = useState(false);
 
+  const [theme, setTheme] = useState(false);
+
+  const changeTheme = () => {
+    setTheme(!theme);
+    document.getElementsByTagName("body")[0].className = theme
+      ? "light-theme"
+      : "dark-theme";
+    document.getElementById("change").textContent = theme
+      ? "深色模式"
+      : "預設模式";
+  };
+
   const onChange = (e) => {
     e.preventDefault();
     let files;
@@ -37,11 +49,14 @@ function Deal({ setInput, setName, input, onCrop }) {
 
   return (
     <div className="deal no-print">
+      <label id="change" onClick={() => changeTheme()}>
+        深色模式
+      </label>
       <p className="title">公民記者證產生器</p>
-      <p>
+      <p id="description1">
         公民記者，又稱民間記者，是指傳統傳媒體系以外的新聞工作者，包含已脫離一般傳媒機構、以獨立身分對事件做出報導的人，或者對新聞工作有興趣的業餘人士。敬請製作並列印出屬於自己的公民記者證，捍衛屬於自己的新聞自由。
       </p>
-      <p>請盡量以電腦設備使用本網站以確保列印品質。</p>
+      <p id="description2">請盡量以電腦設備使用本網站以確保列印品質。</p>
       <div>
         <input
           type="text"

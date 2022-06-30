@@ -11,6 +11,16 @@ body {
   font-family: "Noto Sans TC", sans-serif !important;
 }
 
+.light-theme {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark-theme {
+  background-color: #000000;
+  color: #ffffff;
+}
+
 .App {
   display: flex; //啟用flex
   flex-direction: column; //設定由上到下排列
