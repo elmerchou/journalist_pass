@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/journalist_pass/static/css/main.c50b774b.css",
-    "main.js": "/journalist_pass/static/js/main.69cd74d6.js",
+    "main.css": "/journalist_pass/static/css/main.7b6a43f2.css",
+    "main.js": "/journalist_pass/static/js/main.75cf951f.js",
     "static/media/profile-image-placeholder.jpg": "/journalist_pass/static/media/profile-image-placeholder.fb45c231c8be284fc23e.jpg",
     "index.html": "/journalist_pass/index.html",
-    "main.c50b774b.css.map": "/journalist_pass/static/css/main.c50b774b.css.map",
-    "main.69cd74d6.js.map": "/journalist_pass/static/js/main.69cd74d6.js.map"
+    "main.7b6a43f2.css.map": "/journalist_pass/static/css/main.7b6a43f2.css.map",
+    "main.75cf951f.js.map": "/journalist_pass/static/js/main.75cf951f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c50b774b.css",
-    "static/js/main.69cd74d6.js"
+    "static/css/main.7b6a43f2.css",
+    "static/js/main.75cf951f.js"
   ]
 }
