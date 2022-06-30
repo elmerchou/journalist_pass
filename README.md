@@ -24,6 +24,12 @@ Citizen Journalist Pass Generator can now switch between dark/bright themes! (It
 ![](https://i.imgur.com/74lpKQ0.png)
 ![](https://i.imgur.com/Qm5cc09.png)
 
+## Roadmap
+
+- [X] Switch between dark/bright themes
+- [] Reshape the look with chakra.ui or MUI
+- [] Other ideas to be added
+
 
 ## Libraries
 
