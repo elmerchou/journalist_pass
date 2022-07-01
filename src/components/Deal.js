@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Cropper from "react-cropper";
 import "cropperjs/dist/cropper.css";
 import profile from "../img/profile-image-placeholder.jpg";
+import { useEffect } from "react";
 
 function print() {
   window.print();
@@ -21,8 +22,8 @@ function Deal({ setInput, setName, input, onCrop }) {
       ? "light-theme"
       : "dark-theme";
     document.getElementById("change").textContent = theme
-      ? "深色模式"
-      : "預設模式";
+      ? "🌜深色模式"
+      : "🌞亮色模式";
   };
 
   const onChange = (e) => {
@@ -39,6 +40,15 @@ function Deal({ setInput, setName, input, onCrop }) {
     };
     reader.readAsDataURL(files[0]);
   };
+
+  useEffect(() => {
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      changeTheme();
+    }
+  }, []);
 
   // const cropperRef = useRef < HTMLImageElement > null;
   // const onCrop = () => {
