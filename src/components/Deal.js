@@ -60,7 +60,7 @@ function Deal({ setInput, setName, input, onCrop }) {
   return (
     <div className="deal no-print">
       <label id="change" onClick={() => changeTheme()}>
-        深色模式
+        🌜深色模式
       </label>
       <p className="title">公民記者證產生器</p>
       <p id="description1">
