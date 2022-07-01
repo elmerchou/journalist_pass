@@ -12,17 +12,17 @@ Visit site [here](https://elmerchou.github.io/journalist_pass/).
 
 ## Screenshots
 
-![](https://i.imgur.com/j5s5pDu.png)
-![](https://i.imgur.com/COuRFKe.png)
+![](https://i.imgur.com/8rRW6XY.png)
+![](https://i.imgur.com/dDgIND7.png)
 
-## Update 7/1
+## Update 7/1 && 7/2
 
-現在公民記者證產生器可以切換深色/亮色主題了！(不影響記者證與列印時的外觀)
+現在公民記者證產生器會自動根據瀏覽器的主題切換深色/亮色主題，並且使用者可以再自由調整！(不影響記者證與列印時的外觀)
 
-Citizen Journalist Pass Generator can now switch between dark/bright themes! (It does not affect the appearance of the press card and printing)
+Now Citizen Journalist Pass Generator will automatically switch between dark/bright themes based on the browser theme and the user can adjust it again freely! (It does not affect the appearance of the press card and printing)
 
-![](https://i.imgur.com/74lpKQ0.png)
-![](https://i.imgur.com/Qm5cc09.png)
+![](https://i.imgur.com/Id5v3gY.png)
+![](https://i.imgur.com/F11Tkyf.png)
 
 ## Roadmap
 
