@@ -15,7 +15,7 @@ Visit site [here](https://elmerchou.github.io/journalist_pass/).
 ![](https://i.imgur.com/8rRW6XY.png)
 ![](https://i.imgur.com/dDgIND7.png)
 
-## Update 7/1 && 7/2
+## Update 7/1
 
 現在公民記者證產生器會自動根據瀏覽器的主題切換深色/亮色主題，並且使用者可以再自由調整！(不影響記者證與列印時的外觀)
 
