@@ -36,6 +36,11 @@ Now Citizen Journalist Pass Generator will automatically switch between dark/bri
 - [react](https://www.npmjs.com/package/react)
 - [react-cropper](https://www.npmjs.com/package/react-cropper)
 
+## References
+- [Creative Inspiration](https://g0v.github.io/reporter/#/)
+- [Design Inspiration](https://www.gushiciku.cn/pl/gL2e/zh-tw)
+
+
 ## Author
 
 - [@ElmerChou](https://github.com/elmerchou)
