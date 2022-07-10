@@ -95,6 +95,12 @@ body {
   color: black;
 }
 
+@media screen and (max-width: 680px) {
+  .footer {
+    display: none;
+  }
+}
+
 .card {
   border: 2px solid #042940;
   max-width: 465px;
